@@ -13,6 +13,7 @@ int input()
   printf("Enter two numbers");
   scanf("%d%d", &a, &b);
   add(a, b, &sum);
+  
 }
 
 void add(int a, int b, int *sum) 
