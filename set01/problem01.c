@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main () {
-  printf("Name:Ajay");
+  printf("enter name");
+  scanf("%c\n",&name);
+  printf("My name is:");
   return 0;
 }

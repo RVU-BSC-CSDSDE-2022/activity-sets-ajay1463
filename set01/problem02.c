@@ -8,6 +8,6 @@ int main() {
 
     sum = number1 + number2;      
     
-    printf("the sum of number1 and number2 is:%d + %d = %d", number1, number2, sum);
+    printf("the sum of number1 and number2 is:%d+%d=%d", number1, number2, sum);
     return 0;
 }
