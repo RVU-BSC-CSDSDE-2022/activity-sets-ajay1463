@@ -1,49 +1,47 @@
 #include<stdio.h>
 int input_array_size();
-void input_array(int n, int a[n]);
-int sum_n_array(int n, int a[n]);
-void output(int n, int a[n],int sum);
+void input_array(int n, inta[n]);
+int sum_n_array(int n, int a[n],int sum);
 void main()
 {
-    int n,sum;
-    n=input_array_size();
-    int a[n];
-    input_array(n,a);
-    sum=sum_n_array(n,a);
-    output(n,a,sum);
-
+  int n,sum;
+  n=input_array_size();
+  int a[n];
+  input_array(n,a);
+  sum=sum_n_array(n,a);
+  output(n,a,sum);
 }
 int input_array_size()
 {
-    int n;
-    printf("Input array size:\n");
-    scanf("%d",&n);
-    return n;
+  int n;
+  printf("Input array size:\n");
+  scanf("%d",&n);
+  return n;
 }
-void input_array(int n, int a[n])
+void input_array(int n, inta[n])
 {
-    int i;
-    printf("Input the array:\n");
-    for(i=0;i<n;i++)
+  int i;
+  printf("Input the array:\n");
+  for (i=0;<n;i++)
     {
-        scanf("%d",&a[i]);
+      scanf("%d",&a[i]);
     }
 }
 int sum_n_array(int n, int a[n])
 {
-    int sum=0,i;
-    for(i=0;i<n;i++)
+  int sum=0,i;
+  for(i=0;i<n;i++)
     {
-        sum=sum+a[i];
+      sum=sum+a[i];
     }
-    return sum;
+  return sum;
 }
-void output(int n, int a[n],int sum)
+void output(int n, int a[n], int sum)
 {
-    int i;
-    for(i=0;i<n;i++)
+  int i;
+  for (i=0;i<n;i++)
     {
-        printf("%d+",a[i]);
+      printf("%d+",a[i]);
     }
-    printf("is %d",sum);
+  printf("Is %d",sum);
 }
