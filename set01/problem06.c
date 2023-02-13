@@ -28,5 +28,5 @@ else
   *largest=c;
 } 
 void output(int a, int b, int c, int largest){
-  printf("Largest number is %d\n",a,b,c,largest);
+  printf("Largest number is %d",a,b,c,largest);
 }

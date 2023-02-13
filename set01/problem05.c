@@ -30,5 +30,5 @@ int compare(int a, int b, int c){
 }
 void output(int a, int b, int c, int largest)
 {
-  printf("Largest number of %d,%dand %d is %d\n",a,b,c,largest);
+  printf("Largest number of %d,%dand %d is %d",a,b,c,largest);
 }
